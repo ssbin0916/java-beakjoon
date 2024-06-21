@@ -1,4 +1,4 @@
-package baekjoon.Q10172;
+package baekjoon.Lv1.Q10172;
 
 public class Main {
 

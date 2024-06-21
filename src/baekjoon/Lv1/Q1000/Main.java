@@ -1,4 +1,4 @@
-package baekjoon.Q10998;
+package baekjoon.Lv1.Q1000;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ public class Main {
         int a = scanner.nextInt();
         int b = scanner.nextInt();
 
-        System.out.println(a * b);
+        System.out.println(a + b);
         scanner.close();
     }
 }
