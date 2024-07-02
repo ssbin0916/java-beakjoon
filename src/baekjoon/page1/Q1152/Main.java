@@ -1,4 +1,4 @@
-package baekjoon.Q1152;
+package baekjoon.page1.Q1152;
 
 import java.util.Scanner;
 import java.util.StringTokenizer;

@@ -1,4 +1,4 @@
-package baekjoon.Q1000;
+package baekjoon.page1.Q1330;
 
 import java.util.Scanner;
 
@@ -11,7 +11,13 @@ public class Main {
         int a = scanner.nextInt();
         int b = scanner.nextInt();
 
-        System.out.println(a + b);
+        if (a > b) {
+            System.out.println(">");
+        } else if (a < b) {
+            System.out.println("<");
+        } else {
+            System.out.println("==");
+        }
         scanner.close();
     }
 }

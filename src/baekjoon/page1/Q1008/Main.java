@@ -1,4 +1,4 @@
-package baekjoon.Q1001;
+package baekjoon.page1.Q1008;
 
 import java.util.Scanner;
 
@@ -7,10 +7,12 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        int a = scanner.nextInt();
-        int b = scanner.nextInt();
 
-        System.out.println(a - b);
+        double a = scanner.nextDouble();
+        double b = scanner.nextDouble();
+
+        System.out.println(a / b);
+
         scanner.close();
     }
 }
