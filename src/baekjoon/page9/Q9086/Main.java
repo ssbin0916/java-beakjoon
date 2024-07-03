@@ -1,4 +1,4 @@
-package baekjoon.Q9086;
+package baekjoon.page9.Q9086;
 
 import java.util.Scanner;
 
