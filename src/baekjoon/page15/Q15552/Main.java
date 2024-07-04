@@ -1,4 +1,4 @@
-package baekjoon.Q15552;
+package baekjoon.page15.Q15552;
 
 import java.io.*;
 
