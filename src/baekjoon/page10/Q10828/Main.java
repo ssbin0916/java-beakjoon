@@ -28,14 +28,22 @@ public class Main {
 
             if (command.equals("push")) {
                 push(Integer.parseInt(st.nextToken()));
-            } else if (command.equals("pop")) {
-                sb.append(pop()).append('\n');
-            } else if (command.equals("size")) {
-                sb.append(size()).append('\n');
-            } else if (command.equals("empty")) {
-                sb.append(empty()).append('\n');
-            } else if (command.equals("top")) {
-                sb.append(top()).append('\n');
+            }
+
+            if (command.equals("pop")) {
+                sb.append(pop()).append(System.lineSeparator());
+            }
+
+            if (command.equals("size")) {
+                sb.append(size()).append(System.lineSeparator());
+            }
+
+            if (command.equals("empty")) {
+                sb.append(empty()).append(System.lineSeparator());
+            }
+
+            if (command.equals("top")) {
+                sb.append(top()).append(System.lineSeparator());
             }
         }
         System.out.println(sb);
