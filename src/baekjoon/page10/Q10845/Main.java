@@ -26,19 +26,19 @@ public class Main {
                 push(Integer.parseInt(st.nextToken()));
             }
             if (command.equals("pop")) {
-                sb.append(pop()).append("\n");
+                sb.append(pop()).append(System.lineSeparator());
             }
             if (command.equals("size")) {
-                sb.append(size()).append("\n");
+                sb.append(size()).append(System.lineSeparator());
             }
             if (command.equals("empty")) {
-                sb.append(empty()).append("\n");
+                sb.append(empty()).append(System.lineSeparator());
             }
             if (command.equals("front")) {
-                sb.append(front()).append("\n");
+                sb.append(front()).append(System.lineSeparator());
             }
             if (command.equals("back")) {
-                sb.append(back()).append("\n");
+                sb.append(back()).append(System.lineSeparator());
             }
         }
 
